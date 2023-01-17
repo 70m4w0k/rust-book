@@ -27,7 +27,7 @@ fn from_fahrenheit_to_celsius(temperature: f32) -> f32 {
 }
 
 fn from_celsius_to_fahrenheit(temperature: f32) -> f32 {
-    (temperature * 1.8000 + 32.0)
+    temperature * 1.8000 + 32.0
 }
 
 fn fibonacci(target: i32) -> i32 {
@@ -43,11 +43,6 @@ fn fibonacci(target: i32) -> i32 {
 }
 
 fn twelve_days_of_christmas() {
-    let first_verse_phrase = String::from("On the {} day of Christmas, my true love sent to me");
-    let last_verse_phrase = "A partridge in a pear tree";
-
-    let second_verse_phrase = String::from("");
-
     let mut song = String::from("").to_owned();
 
     for i in 1..13 {

@@ -17,64 +17,64 @@ fn main() {
 
     // Les types de données
 
-    let x = 2.0;
+    let _x = 2.0;
 
     let y: f32 = 3.0;
 
     // Opérations
 
     // addition
-    let somme = 5 + 10;
+    let _somme = 5 + 10;
 
     // soustraction
-    let difference = 95.5 - 4.3;
+    let _difference = 95.5 - 4.3;
 
     // multiplication
-    let produit = 4 * 30;
+    let _produit = 4 * 30;
 
     // division
-    let quotient = 56.7 / 32.2;
-    let arrondi = 2 / 3; // retournera 0
+    let _quotient = 56.7 / 32.2;
+    let _arrondi = 2 / 3; // retournera 0
 
     // modulo
-    let reste = 43 % 5;
+    let _reste = 43 % 5;
 
     // Booleen
 
-    let t = true;
+    let _t = true;
 
-    let f: bool = false; // avec une annotation de type explicite
+    let _f: bool = false; // avec une annotation de type explicite
 
     // Caractère
-    let c = 'z';
-    let z = 'ℤ';
-    let chat_aux_yeux_de_coeur = '😻';
+    let _c = 'z';
+    let _z = 'ℤ';
+    let _chat_aux_yeux_de_coeur = '😻';
 
     // Tuples
 
     let tup = (500, 6.4, 1);
 
-    let (x, y, z) = tup;
+    let (_x, _y, _z) = tup;
 
     println!("La valeur de y est : {}", y); // 6.4
 
     let x: (i32, f64, u8) = (500, 6.4, 1);
 
-    let cinq_cents = x.0;
+    let _cinq_cents = x.0;
 
-    let six_virgule_quatre = x.1;
+    let _six_virgule_quatre = x.1;
 
-    let un = x.2;
+    let _un = x.2;
 
     // Tableau
-    let a: [i32; 5] = [1, 2, 3, 4, 5];
+    let _a: [i32; 5] = [1, 2, 3, 4, 5];
 
-    let a = [3; 5]; // let a = [3, 3, 3, 3, 3];
+    let _a = [3; 5]; // let a = [3, 3, 3, 3, 3];
 
     let a = [1, 2, 3, 4, 5];
 
-    let premier = a[0];
-    let second = a[1];
+    let _premier = a[0];
+    let _second = a[1];
 
     // FONCTIONS
     une_autre_fonction(5);
